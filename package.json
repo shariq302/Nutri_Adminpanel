@@ -6,7 +6,8 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "@canvasjs/react-charts": "^1.0.0",
@@ -21,6 +22,7 @@
     "framer-motion": "^10.16.4",
     "moment": "^2.29.4",
     "next": "14.0.3",
+    "next-on-netlify": "^3.0.1",
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-apexcharts": "^1.4.1",
